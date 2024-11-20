@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <tr th:each="items : ${items}">
+        <td th:text="${items[0]}">상품</td>
+        <td th:text="${items[1]}">가격</td>
+        <td th:text="${items[2]}">수량</td><br>
+    </tr>
+</body>
+</html>
